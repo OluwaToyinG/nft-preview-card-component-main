@@ -14,6 +14,9 @@ module.exports = {
 fontFamily: {
   outfit: ['Outfit', 'sans-serif'],
 },
+backgroundImage:{
+  'main-img': url('../images/image-equilibrium.jpg'),
+},
       
 
   },

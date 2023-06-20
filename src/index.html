@@ -18,37 +18,53 @@
     <main
       class="flex items-center justify-center w-full h-screen m-auto bg-very-dark-blue-main"
     >
-      <div class="bg-very-dark-blue-card h-2/3 max-w-[85%] rounded-xl">
-        <div class="flex items-center justify-center mx-auto my-5">
+      <div class="bg-very-dark-blue-card h-4/6 max-w-[85%] rounded-xl">
+        <div
+          class="flex items-center justify-center max-w-[100%] mx-auto my-5 h-[50%]"
+        >
           <img
             src="../images/image-equilibrium.jpg"
             alt=""
-            class="max-w-[85%] h-72 rounded-xl"
+            class="max-w-[80%] h-[100%] rounded-xl"
           />
         </div>
-        <div class="max-w-[80%] m-auto">
-          <div>
-            <h3 class="font-semibold tracking-[.13rem] text-white">
+        <div class="max-w-[80%] h-2/5 m-auto">
+          <div class="">
+            <h3 class="font-semibold tracking-[.13rem] text-white mb-2">
               Equilibrium #3429
             </h3>
-            <p class="text-sm font-normal tracking-wider text-soft-blue">
+            <p
+              class="mb-2 text-sm font-normal leading-6 tracking-wider text-soft-blue"
+            >
               Our Equilibrium collection promotes balance and calm.
             </p>
-            <div class="flex border-b-[.05rem]">
+            <div class="flex justify-between pb-2 mb-2 border-b">
               <div class="flex">
-                <img src="../images/icon-ethereum.svg" alt="" />
-                <h4>0.041 ETH</h4>
+                <img src="../images/icon-ethereum.svg" alt="" class="mr-2" />
+
+                <div class="bg-main-i"></div>
+                <h4 class="text-cyan">0.041 ETH</h4>
               </div>
               <div class="flex">
-                <img src="../images/icon-clock.svg" alt="" />
-                <p>3 days left</p>
+                <img src="../images/icon-clock.svg" alt="" class="mr-2" />
+                <p class="text-soft-blue">3 days left</p>
               </div>
             </div>
           </div>
           <div class="flex">
-            <div><img src="../images/image-avatar.png" alt="" /></div>
-            <p>Creation of</p>
-            <span>Jules Wyvern</span>
+            <div class="max-w-[20%] mr-5">
+              <img
+                src="../images/image-avatar.png"
+                alt=""
+                class="h-[100%] w-[70%] border-[.10rem] rounded-[50%]"
+              />
+            </div>
+            <div class="flex">
+              <span class="mr-2 text-sm font-light text-soft-blue"
+                >Creation of</span
+              >
+              <span class="text-sm font-light text-white">Jules Wyvern</span>
+            </div>
           </div>
         </div>
       </div>
